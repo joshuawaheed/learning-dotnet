@@ -54,15 +54,44 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Author.cs">
+      <DependentUpon>Pluto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Course.cs">
+      <DependentUpon>Pluto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\CourseSection.cs">
+      <DependentUpon>Pluto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\funcGetAuthorCourses_Result.cs">
+      <DependentUpon>Pluto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\GetCourses_Result.cs">
+      <DependentUpon>Pluto.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Pluto.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Pluto.Context.tt</DependentUpon>
     </Compile>
+    <Compile Include="Properties\Pluto.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Pluto.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Pluto.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Pluto.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Post.cs">
+      <DependentUpon>Pluto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Tag.cs">
+      <DependentUpon>Pluto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\tblUser.cs">
+      <DependentUpon>Pluto.tt</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -80,6 +109,12 @@
     <Content Include="Properties\Pluto.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Pluto.Context.cs</LastGenOutput>
+      <DependentUpon>Pluto.edmx</DependentUpon>
+    </Content>
+    <Content Include="Properties\Pluto.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Pluto.edmx</DependentUpon>
+      <LastGenOutput>Pluto.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>

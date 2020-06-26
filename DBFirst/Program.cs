@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DBFirst.Properties;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,13 @@ namespace DBFirst
     {
         static void Main(string[] args)
         {
+            var dbContext = new PlutoDBContext();
+            var courses = dbContext.GetCourses();
+
+            foreach (var course in courses)
+            {
+                Console.WriteLine(course.Title);
+            }
         }
     }
 }
