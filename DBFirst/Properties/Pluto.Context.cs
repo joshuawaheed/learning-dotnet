@@ -43,14 +43,14 @@ namespace DBFirst.Properties
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("DeleteCourse", courseIDParameter);
         }
     
-        [DbFunction("PlutoDBContext", "funcGetAuthorCourses")]
-        public virtual IQueryable<funcGetAuthorCourses_Result> funcGetAuthorCourses(Nullable<int> authorID)
+        [DbFunction("PlutoDBContext", "GetAuthorCourses")]
+        public virtual IQueryable<funcGetAuthorCourses_Result> GetAuthorCourses(Nullable<int> authorID)
         {
             var authorIDParameter = authorID.HasValue ?
                 new ObjectParameter("AuthorID", authorID) :
                 new ObjectParameter("AuthorID", typeof(int));
     
-            return ((IObjectContextAdapter)this).ObjectContext.CreateQuery<funcGetAuthorCourses_Result>("[PlutoDBContext].[funcGetAuthorCourses](@AuthorID)", authorIDParameter);
+            return ((IObjectContextAdapter)this).ObjectContext.CreateQuery<funcGetAuthorCourses_Result>("[PlutoDBContext].[GetAuthorCourses](@AuthorID)", authorIDParameter);
         }
     
         public virtual ObjectResult<GetCourses_Result> GetCourses()

@@ -12,6 +12,9 @@ namespace DBFirst
         static void Main(string[] args)
         {
             var dbContext = new PlutoDBContext();
+
+            dbContext.GetAuthorCourses(1);
+
             var courses = dbContext.GetCourses();
 
             foreach (var course in courses)
