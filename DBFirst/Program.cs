@@ -1,9 +1,5 @@
-﻿using DBFirst.Properties;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DBFirst.Enums;
+using DBFirst.Properties;
 
 namespace DBFirst
 {
@@ -11,16 +7,9 @@ namespace DBFirst
     {
         static void Main(string[] args)
         {
-            var dbContext = new PlutoDBContext();
+            var course = new Course();
 
-            dbContext.GetAuthorCourses(1);
-
-            var courses = dbContext.GetCourses();
-
-            foreach (var course in courses)
-            {
-                Console.WriteLine(course.Title);
-            }
+            course.Level = Level.Beginner;
         }
     }
 }
