@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Net;
+using Newtonsoft.Json;
 
 namespace CallExternalAPI
 {
@@ -8,7 +10,7 @@ namespace CallExternalAPI
     {
         static void Main(string[] args)
         {
-            Post();
+            Get();
         }
 
         private static void Get()
@@ -32,7 +34,18 @@ namespace CallExternalAPI
                 streamReader.Close();
             }
 
-            Console.WriteLine(stringResultTest);
+            var comments = JsonConvert.DeserializeObject<IEnumerable<Comment>>(stringResultTest);
+
+            foreach (var comment in comments)
+            {
+                Console.WriteLine("Name: {0}", comment.Name);
+                Console.WriteLine("Id: {0}", comment.Id);
+                Console.WriteLine("PostId: {0}", comment.PostId);
+                Console.WriteLine("Email: {0}", comment.Email);
+                Console.WriteLine("Body: {0}", comment.Body);
+                Console.WriteLine();
+            }
+            
             Console.Read();
         }
 
@@ -75,5 +88,14 @@ namespace CallExternalAPI
                 Console.Read();
             }
         }
+    }
+
+    public class Comment
+    {
+        public string Name { get; set; }
+        public int Id { get; set; }
+        public int PostId { get; set; }
+        public string Email { get; set; }
+        public string Body { get; set; }
     }
 }
