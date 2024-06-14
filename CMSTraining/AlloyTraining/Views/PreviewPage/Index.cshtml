@@ -1,0 +1,45 @@
+﻿@using AlloyTraining
+@using AlloyTraining.Models.ViewModels
+@using EPiServer.Web.Mvc.Html
+@model PreviewPageViewModel
+@{
+    Layout = null;
+}
+<head>
+    <title>@(Model.CurrentPage.MetaTitle ?? Model.CurrentPage.Name)</title>
+    <link rel="stylesheet" href="@Url.Content("~/css/bootstrap.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/css/bootstrap-responsive.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/css/media.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/css/style.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/css/editmode.css")" />
+    <script type="text/javascript" src="@Url.Content("~/js/jquery.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/js/bootstrap.js")"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="well well-large">
+            <div class="row">
+                <div class="alert alert-info">Display Option: Full (default)</div>
+            </div>
+            <div class="row">
+                @Html.PropertyFor(m => m.PreviewContentArea, new { Tag = SiteTags.Full })
+            </div>
+        </div>
+        <div class="well well-large">
+            <div class="row">
+                <div class="alert alert-info span8">Display Option: Wide</div>
+            </div>
+            <div class="row">
+                @Html.PropertyFor(m => m.PreviewContentArea, new { Tag = SiteTags.Wide })
+            </div>
+        </div>
+        <div class="well well-large">
+            <div class="row">
+                <div class="alert alert-info span4">Display Option: Narrow</div>
+            </div>
+            <div class="row">
+                @Html.PropertyFor(m => m.PreviewContentArea, new { Tag = SiteTags.Narrow })
+            </div>
+        </div>
+    </div>
+</body>

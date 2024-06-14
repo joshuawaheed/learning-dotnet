@@ -1,0 +1,42 @@
+﻿@inject IContextModeResolver modeResolver
+@model AlloyDemo.Models.ViewModels.PageViewModel<FAQListPage>
+<h2>Alloy FAQs</h2>
+<div class="navbar">
+    <h3>Enter your question</h3>
+    @using (Html.BeginForm(actionName: "CreateFAQItem", controllerName: null))
+    {
+        <input type="text" tabindex="1" name="question" placeholder="Enter your question" />
+        <input type="submit" tabindex="2" class="btn" value="Submit" />
+    }
+</div>
+@if (modeResolver.CurrentMode == ContextMode.Edit)
+{
+    <div class="alert alert-info">
+        Questions do not appear until they have been
+        answered by a content editor and published.
+    </div>
+}
+<div class="nav-stacked">
+    <h2>Questions with answers</h2>
+    @foreach (var faqItem in Model.CurrentPage.FAQItems)
+    {
+        <div class="alert alert-success">
+            <p>
+                <small class="label label-inverse">
+                    Asked at
+                    @faqItem.Created.ToShortTimeString() on
+                    @faqItem.Created.ToShortDateString()
+                </small>
+            </p>
+            @Html.DisplayFor(m => faqItem.Question)
+            <p>
+                <small class="label label-inverse">
+                    Answered by @faqItem.ChangedBy at
+                    @faqItem.StartPublish.Value.ToShortTimeString() on
+                    @faqItem.StartPublish.Value.ToShortDateString()
+                </small>
+            </p>
+            @Html.DisplayFor(m => faqItem.Answer)
+        </div>
+    }
+</div>

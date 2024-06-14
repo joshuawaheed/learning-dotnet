@@ -1,0 +1,42 @@
+﻿### Get the sites
+GET https://localhost:5000/api/episerver/v3.0/site/
+
+### Get the Start page
+GET https://localhost:5000/api/episerver/v3.0/content/5
+
+### Get the Start page using its ContentGuid
+GET https://localhost:5000/api/episerver/v3.0/content/7b08c7d5-7585-47e5-add7-5822da68c3ce
+
+### Get the Start page in Swedish
+GET https://localhost:5000/api/episerver/v3.0/content/5
+
+Accept-Language: sv
+### Get the About us page whose ContentLink.Id is 10
+GET https://localhost:5000/api/episerver/v3.0/content/10
+
+### Get the About us page using its friendly URL
+GET https://localhost:5000/en/about-us/
+Accept: application/json
+
+### Get the Start page using its friendly URL in English
+GET https://localhost:5000/en/
+Accept: application/json
+
+### Get the Start page using its friendly URL in Swedish
+GET https://localhost:5000/sv/
+Accept: application/json
+
+### Get the children of the About us page
+GET https://localhost:5000/api/episerver/v3.0/content/10/children
+
+### Get the ancestors of the About us page
+GET https://localhost:5000/api/episerver/v3.0/content/10/ancestors
+
+### Get the Start and About us pages
+GET https://localhost:5000/api/episerver/v3.0/content/?references=5,10
+
+### Search for everything
+GET https://localhost:5000/api/episerver/v3.0/search/content
+
+### Search for "white"
+GET https://localhost:5000/api/episerver/v3.0/search/content?query=white

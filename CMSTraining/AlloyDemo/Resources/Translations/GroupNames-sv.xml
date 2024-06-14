@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<languages>
+  <language name="Swedish" id="sv">
+    <headings>
+      <heading name="Contact">
+        <description>Kontakta</description>
+      </heading>
+      <heading name="Default">
+        <description>Standard</description>
+      </heading>
+      <heading name="News">
+        <description>Nyheter</description>
+      </heading>
+      <heading name="Products">
+        <description>Produkter</description>
+      </heading>
+      <heading name="MetaData">
+        <description>Sökmotoroptimering</description>
+      </heading>
+      <heading name="SiteSettings">
+        <description>Webbplatsinställningar</description>
+      </heading>
+      <heading name="Specialized">
+        <description>Specialiserad</description>
+      </heading>
+    </headings>
+  </language>
+</languages>

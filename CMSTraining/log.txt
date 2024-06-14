@@ -1,0 +1,211 @@
+2024-05-07 10:35:05.373 +01:00 [INF] Running update command.
+2024-05-07 10:35:45.474 +01:00 [INF] Database operation failed, will do retry 1 of 3 [A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 50 - Local Database Runtime error occurred. Specified LocalDB instance name is invalid.
+)]
+2024-05-07 10:35:45.481 +01:00 [INF] Database operation failed, will do retry 2 of 3 [A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 50 - Local Database Runtime error occurred. Specified LocalDB instance name is invalid.
+)]
+2024-05-07 10:35:48.500 +01:00 [INF] Database operation failed, will do retry 3 of 3 [A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 50 - Local Database Runtime error occurred. Specified LocalDB instance name is invalid.
+)]
+2024-05-07 10:37:31.389 +01:00 [INF] Running update command.
+2024-05-07 10:38:06.331 +01:00 [INF] Database operation failed, will do retry 1 of 3 [A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 50 - Local Database Runtime error occurred. Specified LocalDB instance name is invalid.
+)]
+2024-05-07 10:38:06.339 +01:00 [INF] Database operation failed, will do retry 2 of 3 [A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 50 - Local Database Runtime error occurred. Specified LocalDB instance name is invalid.
+)]
+2024-05-07 10:38:09.351 +01:00 [INF] Database operation failed, will do retry 3 of 3 [A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 50 - Local Database Runtime error occurred. Specified LocalDB instance name is invalid.
+)]
+2024-05-07 10:39:36.148 +01:00 [INF] Running update command.
+2024-05-07 10:39:47.555 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.Find.Cms\16.2.0\tools\epiupdates\sql\1.0.1.sql
+2024-05-07 10:39:47.648 +01:00 [INF] Script validation: 1 - Upgrading database
+2024-05-07 10:39:47.653 +01:00 [INF] Running script 1.0.1.sql
+2024-05-07 10:39:47.692 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\7.8.0.sql
+2024-05-07 10:39:47.711 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:47.713 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\7.10.0.sql
+2024-05-07 10:39:47.725 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:47.727 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\7.11.0.sql
+2024-05-07 10:39:47.739 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:47.742 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\7.12.0.sql
+2024-05-07 10:39:47.753 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:47.756 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\7.13.0.sql
+2024-05-07 10:39:47.767 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:47.771 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\7.14.0.sql
+2024-05-07 10:39:47.782 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:47.784 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\7.16.0.sql
+2024-05-07 10:39:47.796 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:47.798 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\7.19.0.sql
+2024-05-07 10:39:47.812 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:47.815 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\7.19.1.sql
+2024-05-07 10:39:47.828 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:47.829 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\8.0.0.sql
+2024-05-07 10:39:47.842 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:47.844 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\8.4.0.sql
+2024-05-07 10:39:47.857 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:47.860 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\8.6.0.sql
+2024-05-07 10:39:47.872 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:47.875 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\8.7.0.sql
+2024-05-07 10:39:47.887 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:47.890 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\8.9.0.sql
+2024-05-07 10:39:47.906 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:47.908 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\8.10.0.sql
+2024-05-07 10:39:47.924 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:47.927 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\9.0.0.sql
+2024-05-07 10:39:47.941 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:47.943 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\9.0.1.sql
+2024-05-07 10:39:47.955 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:47.958 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\9.0.2.sql
+2024-05-07 10:39:47.972 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:47.974 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\9.1.0.sql
+2024-05-07 10:39:47.982 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:47.984 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\9.1.1.sql
+2024-05-07 10:39:48.000 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.002 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\9.2.0.sql
+2024-05-07 10:39:48.014 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.017 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\9.3.0.sql
+2024-05-07 10:39:48.029 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.031 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\9.4.0.sql
+2024-05-07 10:39:48.043 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.045 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\9.5.0.sql
+2024-05-07 10:39:48.060 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.062 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\9.6.2.sql
+2024-05-07 10:39:48.076 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.079 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\9.7.0.sql
+2024-05-07 10:39:48.093 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.095 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\9.8.0.sql
+2024-05-07 10:39:48.112 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.114 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\9.8.1.sql
+2024-05-07 10:39:48.127 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.129 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\9.8.2.sql
+2024-05-07 10:39:48.143 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.145 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\9.8.3.sql
+2024-05-07 10:39:48.160 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.162 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\10.0.0.sql
+2024-05-07 10:39:48.175 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.177 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\10.1.0.sql
+2024-05-07 10:39:48.189 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.191 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\10.2.0.sql
+2024-05-07 10:39:48.204 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.206 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\10.3.0.sql
+2024-05-07 10:39:48.218 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.221 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\10.3.2.sql
+2024-05-07 10:39:48.234 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.238 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\10.4.1.sql
+2024-05-07 10:39:48.250 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.253 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\10.5.0.sql
+2024-05-07 10:39:48.268 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.272 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\10.6.0.sql
+2024-05-07 10:39:48.284 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.287 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\10.7.0.sql
+2024-05-07 10:39:48.298 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.300 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\10.8.0.sql
+2024-05-07 10:39:48.312 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.314 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\10.9.0.sql
+2024-05-07 10:39:48.328 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.329 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\10.10.0.sql
+2024-05-07 10:39:48.347 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.349 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\11.0.0.sql
+2024-05-07 10:39:48.362 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.364 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\11.2.0.sql
+2024-05-07 10:39:48.380 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.382 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\11.3.3.sql
+2024-05-07 10:39:48.397 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.399 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\11.3.4.sql
+2024-05-07 10:39:48.413 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.415 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\11.5.4.sql
+2024-05-07 10:39:48.431 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.433 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\11.6.0.sql
+2024-05-07 10:39:48.454 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.456 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\11.7.0.sql
+2024-05-07 10:39:48.474 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.477 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\11.8.1.sql
+2024-05-07 10:39:48.493 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.495 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\11.10.0.sql
+2024-05-07 10:39:48.518 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.522 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\11.10.7.sql
+2024-05-07 10:39:48.539 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.542 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\11.12.0.sql
+2024-05-07 10:39:48.555 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.558 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\11.13.3.sql
+2024-05-07 10:39:48.568 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.570 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\11.14.2.sql
+2024-05-07 10:39:48.582 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.584 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\11.15.0.sql
+2024-05-07 10:39:48.595 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.598 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\11.15.1.sql
+2024-05-07 10:39:48.609 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.612 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\11.17.0.sql
+2024-05-07 10:39:48.622 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.625 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\11.19.0.sql
+2024-05-07 10:39:48.639 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.641 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\11.20.0.sql
+2024-05-07 10:39:48.652 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.654 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\11.20.3.sql
+2024-05-07 10:39:48.664 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.666 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\11.20.7.sql
+2024-05-07 10:39:48.678 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.680 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\11.20.9.sql
+2024-05-07 10:39:48.696 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.697 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\12.0.0.sql
+2024-05-07 10:39:48.711 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.714 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\12.0.4.sql
+2024-05-07 10:39:48.726 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.729 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\12.1.2.sql
+2024-05-07 10:39:48.741 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.743 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\12.2.1.sql
+2024-05-07 10:39:48.753 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.755 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.Find.Cms\16.2.0\tools\epiupdates\sql\12.2.8.sql
+2024-05-07 10:39:48.772 +01:00 [INF] Script validation: 1 - Upgrading database
+2024-05-07 10:39:48.774 +01:00 [INF] Running script 12.2.8.sql
+2024-05-07 10:39:48.825 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\12.4.0.sql
+2024-05-07 10:39:48.834 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.837 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\12.4.1.sql
+2024-05-07 10:39:48.844 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.847 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.Find.Cms\16.2.0\tools\epiupdates\sql\12.4.2.sql
+2024-05-07 10:39:48.857 +01:00 [INF] Script validation: 1 - Upgrading database
+2024-05-07 10:39:48.859 +01:00 [INF] Running script 12.4.2.sql
+2024-05-07 10:39:48.905 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\12.5.1.sql
+2024-05-07 10:39:48.913 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.915 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\12.8.0.sql
+2024-05-07 10:39:48.924 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.926 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\12.8.1.sql
+2024-05-07 10:39:48.935 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.938 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\12.9.2.sql
+2024-05-07 10:39:48.946 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.948 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\12.10.0.sql
+2024-05-07 10:39:48.959 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.961 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\12.11.0.sql
+2024-05-07 10:39:48.977 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.979 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\12.12.0.sql
+2024-05-07 10:39:48.994 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:48.996 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\12.13.0.sql
+2024-05-07 10:39:49.007 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:49.009 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\12.14.0.sql
+2024-05-07 10:39:49.021 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:49.023 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\12.15.0.sql
+2024-05-07 10:39:49.033 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:49.037 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\12.16.0.sql
+2024-05-07 10:39:49.047 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:49.049 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\12.17.1.sql
+2024-05-07 10:39:49.060 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:49.063 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\12.18.0.sql
+2024-05-07 10:39:49.075 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:49.077 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.CMS.Core\12.19.0\tools\epiupdates\sql\12.19.0.sql
+2024-05-07 10:39:49.089 +01:00 [INF] Script validation: 0 - Already correct database version
+2024-05-07 10:39:49.092 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.Find.Cms\16.2.0\tools\epiupdates\sql\13.0.4.sql
+2024-05-07 10:39:49.103 +01:00 [INF] Script validation: 1 - Upgrading database
+2024-05-07 10:39:49.105 +01:00 [INF] Running script 13.0.4.sql
+2024-05-07 10:39:49.120 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.Find.Cms\16.2.0\tools\epiupdates\sql\13.2.3.sql
+2024-05-07 10:39:49.132 +01:00 [INF] Script validation: 1 - Upgrading database
+2024-05-07 10:39:49.133 +01:00 [INF] Running script 13.2.3.sql
+2024-05-07 10:39:49.140 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.Find.Cms\16.2.0\tools\epiupdates\sql\13.2.5.sql
+2024-05-07 10:39:49.151 +01:00 [INF] Script validation: 1 - Upgrading database
+2024-05-07 10:39:49.153 +01:00 [INF] Running script 13.2.5.sql
+2024-05-07 10:39:49.159 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.Find.Cms\16.2.0\tools\epiupdates\sql\13.2.8.sql
+2024-05-07 10:39:49.174 +01:00 [INF] Script validation: 1 - Upgrading database
+2024-05-07 10:39:49.176 +01:00 [INF] Running script 13.2.8.sql
+2024-05-07 10:39:49.183 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.Find.Cms\16.2.0\tools\epiupdates\sql\13.4.0.sql
+2024-05-07 10:39:49.195 +01:00 [INF] Script validation: 1 - Upgrading database
+2024-05-07 10:39:49.197 +01:00 [INF] Running script 13.4.0.sql
+2024-05-07 10:39:49.209 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.Find.Cms\16.2.0\tools\epiupdates\sql\13.4.1.sql
+2024-05-07 10:39:49.223 +01:00 [INF] Script validation: 1 - Upgrading database
+2024-05-07 10:39:49.224 +01:00 [INF] Running script 13.4.1.sql
+2024-05-07 10:39:49.229 +01:00 [INF] Processing C:\Users\waheedj\.nuget\packages\EPiServer.Find.Cms\16.2.0\tools\epiupdates\sql\16.2.0.sql
+2024-05-07 10:39:49.241 +01:00 [INF] Script validation: 1 - Upgrading database
+2024-05-07 10:39:49.243 +01:00 [INF] Running script 16.2.0.sql

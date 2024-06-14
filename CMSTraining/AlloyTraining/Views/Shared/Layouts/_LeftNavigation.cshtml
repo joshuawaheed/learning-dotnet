@@ -1,0 +1,15 @@
+﻿@using AlloyTraining.Models.Pages
+@using AlloyTraining.Models.ViewModels
+@model IPageViewModel<SitePageData>
+@{
+    Layout = "~/Views/Shared/Layouts/_Root.cshtml";
+}
+<div class="row">
+    <div class="span4">
+        @RenderSection("_LeftNavigationMenu", required: false)
+        @await Html.PartialAsync("_LeftNavigationMenu", Model)
+    </div>
+    <div class="span8">
+        @RenderBody()
+    </div>
+</div>

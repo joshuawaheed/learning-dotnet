@@ -1,0 +1,15 @@
+﻿@using EPiServer.Web.Mvc.Html
+@model AlloyTraining.Models.Media.PdfFile
+@if (Model.RenderPrevewImage)
+{
+    <a href="@Url.ContentUrl(Model.ContentLink)">
+        <figure>
+            <img src="~/gfx/pdf.png" style="height:50px;width:50px;" />
+            <figcaption>@Model.Name</figcaption>
+        </figure>
+    </a>
+}
+else
+{
+    @Html.ContentLink(Model.ContentLink)
+}

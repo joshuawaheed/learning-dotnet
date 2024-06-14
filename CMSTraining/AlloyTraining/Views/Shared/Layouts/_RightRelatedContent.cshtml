@@ -1,0 +1,14 @@
+﻿@using AlloyTraining.Models.Pages
+@using AlloyTraining.Models.ViewModels
+@model IPageViewModel<SitePageData>
+@{
+    Layout = "~/Views/Shared/Layouts/_Root.cshtml";
+}
+<div class="row">
+    <div class="span8">
+        @RenderBody()
+    </div>
+    <div class="span4">
+        @RenderSection("RelatedContent", required: false)
+    </div>
+</div>
