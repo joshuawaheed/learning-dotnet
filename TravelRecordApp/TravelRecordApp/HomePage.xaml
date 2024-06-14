@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<TabbedPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:TravelRecordApp"
+    xmlns:viewmodel="clr-namespace:TravelRecordApp.ViewModels"
+    x:Class="TravelRecordApp.HomePage">
+    <TabbedPage.Resources>
+        <ResourceDictionary>
+            <viewmodel:HomeViewModel x:Key="viewModel" />
+        </ResourceDictionary>
+    </TabbedPage.Resources>
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem
+            Command="{Binding
+                Source={StaticResource viewModel},
+                Path=NewTravelCommand
+            }"
+            IconImageSource="add.png"
+            Text="Add"/>
+    </TabbedPage.ToolbarItems>
+    <local:HistoryPage
+        IconImageSource="home.png"
+        Title="History"/>
+    <local:MapPage
+        IconImageSource="map.png"
+        Title="Map"/>
+    <local:ProfilePage
+        IconImageSource="user.png"
+        Title="Profile"/>
+</TabbedPage>

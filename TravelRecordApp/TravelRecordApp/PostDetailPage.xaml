@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:viewModel="clr-namespace:TravelRecordApp.ViewModels"
+    x:Class="TravelRecordApp.PostDetailPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <viewModel:PostDetailViewModel x:Key="viewModel" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <StackLayout
+        Margin="16,20,16,0">
+        <Entry
+            x:Name="experienceEntry"/>
+        <Label
+            FontAttributes="Bold"
+            FontSize="22"
+            x:Name="venueLabel"/>
+        <Label
+            TextColor="{StaticResource blueColor}"
+            x:Name="categoryLabel"/>
+        <Label
+            FontSize="15"
+            x:Name="addressLabel"/>
+        <Label
+            FontSize="15"
+            x:Name="coordinatesLabel"/>
+        <Label
+            FontSize="15"
+            x:Name="distanceLabel"/>
+        <Button
+            Command="{Binding
+                Source={StaticResource viewModel},
+                Path=UpdateCommand
+            }"
+            CommandParameter="{Binding
+                Source={x:Reference experienceEntry},
+                Path=Text
+            }"
+            Text="Update"
+            x:Name="updateButton"/>
+        <Button
+            Command="{Binding
+                Source={StaticResource viewModel},
+                Path=DeleteCommand
+            }"
+            Text="Delete"
+            TextColor="Red"
+            x:Name="deleteButton"/>
+    </StackLayout>
+</ContentPage>

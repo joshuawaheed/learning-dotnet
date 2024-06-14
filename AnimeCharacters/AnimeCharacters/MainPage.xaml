@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="AnimeCharacters.Views.MainPage"
+    BackgroundColor="#EEEEEE"
+    Padding="0">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackLayout
+            Grid.Column="0"
+            Grid.Row="0"
+            Padding="30">
+            <Label
+                Text="Anime Characters!"
+                TextColor="#333333"
+                FontSize="36"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Start"
+                VerticalOptions="Center"/>
+            <Label
+                FontSize="16"
+                FontAttributes="None"
+                HorizontalTextAlignment="Start"
+                LineHeight="1.2"
+                Text="Browse some of my favourite  anime characters."
+                TextColor="#666666"
+                VerticalOptions="Center"/>
+        </StackLayout>
+        <ScrollView
+            BackgroundColor="White"
+            Grid.Column="0"
+            Grid.Row="1"
+            Padding="30">
+            <ListView
+                ItemsSource="{Binding Anime}"
+                x:Name="AnimeView">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Label Text="{Binding Name}" />
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ScrollView>
+    </Grid>
+</ContentPage>
