@@ -3,7 +3,7 @@
     "AlloyDemo": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:5000/",
+      "applicationUrl": "http://www.alloy.com:801/",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
