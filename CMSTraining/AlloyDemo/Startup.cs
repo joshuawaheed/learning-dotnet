@@ -62,6 +62,16 @@ public class Startup
         });
 
         //services.AddResponseCaching();
+
+        services.Configure<EPiServer.Shell.Modules.ProtectedModuleOptions>(options =>
+        {
+            options.RootPath = "~/secret";
+        });
+
+        services.Configure<EPiServer.Web.UIOptions>(options =>
+        {
+            options.EditUrl = new Uri("~/secret/cms", UriKind.Relative);
+        });
     }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
